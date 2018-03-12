@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Virtual Classroom</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_register">Register</string>
+    <string name="title_activity_profile">Profile</string>
+    <string name="title_activity_main">Home</string>
+    <string name="title_activity_forum">Forum</string>
+    <string name="title_activity_lecture">Lecture</string>
+    <string name="title_activity_question">Question</string>
+    <string name="Global_Separator">1!2@3#4$%5</string>
+    <string name="title_activity_response_details">ResponseDetails</string>
+    <string name="title_activity_video_show">VideoShow</string>
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+   >
+
+    <Button
+        android:layout_width="match_parent"
+
+        android:layout_height="40dp"
+        android:textAlignment="center"
+        android:text="Live Lectures"
+        android:textSize="15dp"
+
+        android:id="@+id/option1"
+        android:background="#7a6e6e" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textAlignment="center"
+        android:text="Available Lectures"
+        android:textSize="15dp"
+        android:background="#c1abab"
+        android:id="@+id/option2"/>
+
+
+
+
+</LinearLayout>

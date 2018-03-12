@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:background="#ffffff">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textAlignment="center"
+        android:text="Files Available"
+        android:textSize="20dp"
+        android:paddingBottom="15dp"
+        android:background="#ffffff" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="308dp"
+        android:paddingTop="5dp"
+        android:textSize="12dp"
+        android:id="@+id/list_files"
+        android:scrollbarAlwaysDrawHorizontalTrack="true"
+        android:background="#ffffff"></ListView>
+
+</LinearLayout>

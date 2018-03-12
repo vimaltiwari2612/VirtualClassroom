@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_gravity="center"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="180px"
+        android:textAlignment="center"
+        android:hint="Your answer..."
+        android:id="@+id/answer"
+        android:layout_gravity="center" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="80px"
+        android:id="@+id/clearbtn"
+        android:textColor="#ffffff"
+        android:textAlignment="center"
+        android:text="Clear"
+        android:background="#f66a6a" />
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="80px"
+        android:layout_marginTop="10px"
+        android:layout_marginBottom="10px"
+        android:id="@+id/submitbtn"
+        android:textColor="#ffffff"
+        android:textAlignment="center"
+        android:text="Submit"
+        android:background="#73a6ce" />
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="80px"
+
+        android:id="@+id/cancel"
+        android:textColor="#ffffff"
+        android:textAlignment="center"
+        android:text="Cancel"
+        android:background="#73a6ce" />
+</LinearLayout>
