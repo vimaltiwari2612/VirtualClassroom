@@ -24,7 +24,8 @@ Features –
 
 # howToRunIt
 
-1. install mongoDb and nodejs in system.
+1. Download Project. In Node JS server , Do ***npm install***. it will install mongoDb and nodejs in system.
+    (I have not uploaded all node modules, only config folder it there. taking config folder as reference, we can create more modules)
 2. install the apk in your phone
 3. MAKE SURE TO CONNECT YOUR PHONE AND SERVER WITH A COMMON NETWORK OR HOTSPOT
 4. run below commands in cmd:
