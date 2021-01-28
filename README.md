@@ -29,11 +29,11 @@ Features –
           - I have not uploaded all node modules, only config folder it there. taking config folder as reference, we can create more modules
           - once the node modules get installed, copy the ![config](https://github.com/vimaltiwari2612/VirtualClassroom/tree/master/node%20JS%20Server/node_modules/config) config folder and paste it inside node_module's folder created due t npm install.
     
-2. install the apk in your phone
+2. don't install the apk in your phone directly, because it has localhost settings. open android client in android studio,
 
-          - if you want to customize the apk, open it in android studio
-          - change the folder name from "Android Client" to "Virtual Classroom", because the package structure expects "virtualclassroom" as name.
+          -change the folder name from "Android Client" to "Virtual Classroom", because the package structure expects "virtualclassroom" as name.
           - Have use my own PC ip4 address with port 8080, so change the IPv4 address to yours one. run "ipconfig" on windows cmd, for linux, i don't know the commnand :P
+          - create APK after updating ipv4 changes. Install it on phone now.
           
 3. MAKE SURE TO CONNECT YOUR PHONE AND SERVER WITH A COMMON NETWORK OR HOTSPOT
 4. run below commands in cmd:
